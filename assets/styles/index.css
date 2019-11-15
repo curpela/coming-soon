@@ -1,0 +1,77 @@
+html {
+  font-size: 62.5%;
+}
+
+::selection {
+  background: #ff9000;
+}
+
+body {
+  background: #0e1977;
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+}
+body .background-image {
+  opacity: 0.06;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo {
+  padding: 20px;
+  margin: 0;
+  width: 150px;
+  position: absolute;
+  object-fit: contain;
+  left: 0;
+  filter: invert(1);
+}
+
+.coming-soon {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 800px;
+}
+.coming-soon h1,
+.coming-soon p {
+  padding: 0 10px;
+  margin: 0;
+}
+.coming-soon h1 {
+  font-weight: 700;
+  font-size: 10rem;
+}
+.coming-soon p {
+  font-weight: 400;
+  font-size: 4.8rem;
+}
+@media only screen and (max-width: 1200px) {
+  .coming-soon h1 {
+    font-size: 8rem;
+  }
+  .coming-soon p {
+    font-size: 3.2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .coming-soon h1 {
+    font-size: 6rem;
+  }
+  .coming-soon p {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
